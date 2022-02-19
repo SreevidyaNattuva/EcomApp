@@ -81,6 +81,7 @@ body{
 }
 /*products display*/
 .custom-prod-container{
+    padding:auto;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
