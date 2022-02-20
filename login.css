@@ -19,9 +19,7 @@ body {
     display: grid;
     place-items: center;
     grid-template-areas: 1fr;
-    /* padding: 10rem 10rem; */
     margin-top: 5rem;
-    /* margin-bottom: 5rem; */
     min-width: 100vh;
     gap: 2rem;
     background-image: url("https://th.bing.com/th/id/R.aa9e8a4390114312c925a8a5d8e1b55f?rik=8WxSeE%2fYZPFMvQ&riu=http%3a%2f%2fdata.whicdn.com%2fimages%2f117994257%2foriginal.jpg&ehk=FzVDCX%2bJAgQmFm4Hh%2bGzzQmPkIF17GrPFPw2dDsdT8M%3d&risl=&pid=ImgRaw&r=0");
