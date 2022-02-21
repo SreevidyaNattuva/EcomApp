@@ -11,6 +11,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="comp-library/allcomps.css">
     <link rel = "stylesheet" href = "index.css">
+    <link rel="stylesheet" href="wishlist.css">
 </head>
 <body>
     <!--For Github-->
@@ -20,17 +21,17 @@
             <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
                 <span class = "nav-title text-uppercase fw-lighter ms-2">Attire</span>
             </a>
-            <div class = "order-lg-2 nav-btns">  
+            <div class = "order-lg-2 nav-btns">     
                 <a href="cartmanagement.html" class="a-cartmanagement">  
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
-                </button></a> 
-                <a href="wishlist.html" class="a-wishlist"> 
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-heart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
-                </button></a> 
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-shopping-cart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                    </button></a> 
+                    <a href="wishlist.html" class="a-wishlist"> 
+                    <button type = "button" class = "btn position-relative">
+                        <i class = "fa fa-heart"></i>
+                        <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                    </button></a>
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-search"></i>
                 </button> 
@@ -65,7 +66,7 @@
     <!-- end of navbar -->
 
     <!-- header -->
-    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+    <!-- <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
         <div class = "container h-100 d-flex align-items-center carousel-inner">
             <div class = "text-center carousel-item active">
                 <h2 class = "text-capitalize text-white">best collection</h2>
@@ -85,29 +86,22 @@
         <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
             <span class = "carousel-control-next-icon"></span>
         </button>
-    </header>
+    </header> -->
     <!-- end of header -->
 
     <!-- collection -->
     <section id = "collection" class = "py-5">
         <div class = "container">
-            <div class = "title text-center">
-                <h2 class = "position-relative d-inline-block">New Collection</h2>
-            </div>
-
-            <div class = "row g-0">
+            <div class = "row g-0 wishlist-title">
                 <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                    <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">Best Sellers</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">Featured</button>
-                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">New Arrival</button>
+                    <!-- <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">New Arrival</button> -->
+                    <h1 class="wishlist-name">Wishlist</h1>
                 </div>
                 </div>
-                <!--Card -->
+                <!--Card-->
+                
             <div class = "custom-prod-container">
-
                 <div class = "collection-list mt-4 row gx-0 gy-3">
-                    
                     <div class = "col-md-15 col-lg-15 col-xl-15 p-2 best">
                         <div class = "collection-img position-relative">
                     <!-- Cards -->
@@ -117,7 +111,7 @@
                                     src = "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     />
                                     <button class="btn ecommerce-chip-right">
-                                        <i class="fa fa-heart fa-lg"></i>
+                                        <i class="fa fa-times fa-lg"></i>
                                     </button>
                                 </div>
                                 <hr class="separater"/>
@@ -152,7 +146,7 @@
                                     src = "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     />
                                     <button class="btn ecommerce-chip-right">
-                                        <i class="fa fa-heart fa-lg"></i>
+                                        <i class="fa fa-times fa-lg"></i>
                                     </button>
                                 </div>
                                 <hr class="separater"/>
@@ -187,7 +181,7 @@
                                     src = "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     />
                                     <button class="btn ecommerce-chip-right">
-                                        <i class="fa fa-heart fa-lg"></i>
+                                        <i class="fa fa-times fa-lg"></i>
                                     </button>
                                 </div>
                                 <hr class="separater"/>
@@ -222,7 +216,7 @@
                                     src = "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     />
                                     <button class="btn ecommerce-chip-right">
-                                        <i class="fa fa-heart fa-lg"></i>
+                                        <i class="fa fa-times fa-lg"></i>
                                     </button>
                                 </div>
                                 <hr class="separater"/>
@@ -257,7 +251,7 @@
                                     src = "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                     />
                                     <button class="btn ecommerce-chip-right">
-                                        <i class="fa fa-heart fa-lg"></i>
+                                        <i class="fa fa-times fa-lg"></i>
                                     </button>
                                 </div>
                                 <hr class="separater"/>
