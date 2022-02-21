@@ -1,0 +1,68 @@
+.custom-shopnow-prod-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:8rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.main-shopnow-container{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    grid-template-rows: 1fr;
+    min-width: 100vh;
+    padding: 2rem 0;
+    height: 100%;
+}
+.filter-container{
+    border-right: solid var(--pink)!important;
+    font-size: medium;
+    margin-top: 4rem;
+    padding-top:3rem;
+    padding-bottom: 10rem;
+    padding-left: 3rem;
+}
+.filter-title{
+    display:flex;
+    flex-direction: row;
+    justify-items: left;
+    gap: 4rem;
+}
+.clearall{
+    font-size: 2rem;
+}
+.filter-nav{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: left;
+    flex-direction: column; 
+    border-bottom: solid var(--pink)!important;
+    margin-right: 2rem;
+}
+.filter-contents-nav{
+  list-style: none;
+  font-size: medium;
+  display: flex;
+  align-items: left; 
+  justify-content: left;
+  flex-direction: column;
+}
+.filter-nav-ratings{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: left;
+    flex-direction: column; 
+    /* border-bottom: solid var(--pink)!important; */
+    margin-right: 2rem;
+}
+.checked{
+    color:var(--pink);
+}
+.unchecked{
+    color: pink;
+}
