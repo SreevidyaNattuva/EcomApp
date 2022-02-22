@@ -1,10 +1,37 @@
 .custom-prod-container{
     margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
 }
 .wishlist-title{
-    margin-top: 5rem;
+    margin-top: 2rem;
     
 }
 .wishlist-name{
     font-size: 3rem;
+}
+.main-wishlist-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-width: 100vh;
+    padding: 2rem 0;
+    height: 100%; 
+}
+.container{
+    min-height: 20%;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    grid-template-areas: 1fr;
+    margin-top: 10.5rem;
+    min-width: 100vh;
+    gap: 2rem;
+    /* background-image: url("https://th.bing.com/th/id/R.aa9e8a4390114312c925a8a5d8e1b55f?rik=8WxSeE%2fYZPFMvQ&riu=http%3a%2f%2fdata.whicdn.com%2fimages%2f117994257%2foriginal.jpg&ehk=FzVDCX%2bJAgQmFm4Hh%2bGzzQmPkIF17GrPFPw2dDsdT8M%3d&risl=&pid=ImgRaw&r=0"); */
+    /* background-color: rgb(224, 151, 163);  */
 }
