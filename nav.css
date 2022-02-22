@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+.navbar-nav,.nav-btns{
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: row;
+    gap:2rem;
+    align-items: left;
+    justify-content: center;
+}
+.brand-name{
+    padding-left:3rem;
+}
+.navbar-text{
+    padding-right: 2rem;
+     
+}
+.navbar-title{
+    font-family: 'Gideon Roman', cursive;
+    color: rgba(27, 27, 27, 0.699); 
+    text-decoration: none;
+    font-size: 3rem;
+}
+.nav-btns{
+    align-items: left;
+    justify-content: center;
+    padding-right: 5rem; 
+    margin-right: 2rem;
+}
+.fa-heart,.fa-shopping-cart,.fa-search{
+    font-size: 3rem;
+    margin-top: 2px;
+    padding-top:4px;
+}
